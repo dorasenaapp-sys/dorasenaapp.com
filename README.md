@@ -8,6 +8,7 @@ GitHub Pagesで `https://dorasenaapp.com` に公開するための静的サイ�
 - app-ads.txt: `https://dorasenaapp.com/app-ads.txt`
 - はや家計簿 Privacy Policy: `https://dorasenaapp.com/hayakakeibo/privacy-policy/`
 - はや家計簿 Support: `https://dorasenaapp.com/hayakakeibo/support/`
+- はや家計簿 Screenshots: `https://dorasenaapp.com/hayakakeibo/screenshots/`
 
 ## DNS / GitHub Pages
 
