@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kakeibo Support | Dorasena App</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; line-height: 1.75; }
+    body { max-width: 760px; margin: 0 auto; padding: 24px 20px 56px; color: CanvasText; background: Canvas; }
+    nav { margin-bottom: 24px; font-size: .95rem; }
+    a { color: LinkText; }
+    h1, h2 { line-height: 1.3; }
+    h1 { font-size: 1.9rem; margin-bottom: .4rem; }
+    h2 { font-size: 1.25rem; margin-top: 2rem; padding-top: .4rem; border-top: 1px solid color-mix(in srgb, CanvasText 16%, transparent); }
+    .updated { color: color-mix(in srgb, CanvasText 65%, transparent); margin-top: 0; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .95em; }
+    ul { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <nav><a href="/">Dorasena App</a> / <a href="../" lang="ja">日本語</a></nav>
+  <main>
+    <h1>Kakeibo Support</h1>
+    <p class="updated">Last updated: 2026-08-29</p>
+    <p>For bug reports, feedback, or questions about Kakeibo (Japanese app name: はや家計簿), contact <code>dorasenaapp@gmail.com</code>.</p>
+
+    <h2>Helpful details</h2>
+    <ul>
+      <li>Your iPhone model and iOS version</li>
+      <li>The app version</li>
+      <li>The screen, action, and exact message shown</li>
+    </ul>
+    <p>Do not include names, addresses, phone numbers, bank details, or other sensitive information in screenshots or memos.</p>
+
+    <h2>Updating to version 2.0.0</h2>
+    <p><strong>You do not need to do anything.</strong> The app changes only the on-device amount format while keeping every existing record and displayed amount unchanged. Before the change, it saves a safety CSV on your device. You can export it from Settings &gt; Data &gt; Backup from before the update.</p>
+    <p>If the safety CSV cannot be created, the original records are not rewritten. The app remains usable with their previous format and retries the copy on the next launch.</p>
+    <p><strong>If the app says it cannot open storage after an update, do not delete the app.</strong> Check available device storage, quit the app once, and reopen it. If the startup screen offers “Backup from before the update,” share and keep that copy. Contact us if the problem continues.</p>
+    <p>The display currency cannot be changed while an entry, budget, shortcut, recurring entry, or unfinished amount depends on it. This protects the meaning and decimals of existing amounts; all recording and review features remain available in the current currency.</p>
+
+    <h2>CSV import and export</h2>
+    <p>Use Settings &gt; Data to import or export CSV. The app detects columns and lets you review them before saving. Ambiguous day/month dates require your choice rather than a guess. A file whose currency differs from the ledger display currency is rejected instead of silently reinterpreting its amounts. The most recent import can be undone as a batch without touching hand-entered records.</p>
+
+    <h2>Premium purchase</h2>
+    <p>Kakeibo Premium is a one-time purchase with no monthly or yearly charge. If it is not reflected, or after changing devices or reinstalling, use Restore Purchase in the Premium section of Settings. The developer cannot see your Apple ID, payment details, or individual purchase history.</p>
+    <p>If a purchase result is uncertain, check Apple’s purchase history and try Restore Purchase. Refund requests are handled by Apple at <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>.</p>
+
+    <h2>Advertising</h2>
+    <p>The free version may show ads. Advertising consent and privacy settings never block Kakeibo’s core features.</p>
+
+    <h2>Data and recovery</h2>
+    <p>Your records are stored on your device. Removing the app normally deletes them. Export important records to CSV. Device failure, loss, or backup settings can still make local data unrecoverable.</p>
+
+    <h2>Please note</h2>
+    <p>Kakeibo helps record daily spending. It does not provide financial, investment, tax, accounting, or legal advice. Budgets, summaries, and currency conversions are reference information.</p>
+
+    <h2>Privacy Policy</h2>
+    <p><a href="/hayakakeibo/privacy-policy/en/">Kakeibo Privacy Policy</a></p>
+  </main>
+</body>
+</html>
